@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MasterMind</string>
+    <string name="welcome">Welcome</string>
+
+    <string name="challenge">Choose Your Challenge</string>
+
+
+    <string name="words">Words</string>
+    <string name="numbers">Numbers</string>
 </resources>

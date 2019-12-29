@@ -4,16 +4,41 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_page_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity.MainActivity">
+
+    <ImageView
+        android:id="@+id/main_word_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/main_number_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome"
+        android:text="@string/welcome"
         android:textColor="@android:color/holo_green_dark"
-        android:textSize="25sp"
+        android:textSize="30sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.469"
@@ -24,51 +49,154 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/main_btn_4_numbers"
-        android:layout_width="150dp"
+        android:layout_width="50dp"
         android:layout_height="50dp"
-        android:backgroundTint="#F44336"
+        android:backgroundTint="@color/colorLightRed"
+        android:bottomLeftRadius="0dp"
+        android:text="4"
+        android:textColor="@android:color/black"
+        android:topRightRadius="0dp"
+        android:visibility="invisible"
         app:cornerRadius="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintHorizontal_bias="0.401"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
+        app:layout_constraintVertical_bias="0.381"
         app:rippleColor="@android:color/holo_blue_dark"
         app:strokeColor="#673AB7"
-        app:strokeWidth="3dp" />
+        app:strokeWidth="3dp"
+        tools:ignore="UnusedAttribute" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/main_btn_5_numbers"
-        android:layout_width="150dp"
+        android:layout_width="50dp"
         android:layout_height="50dp"
         android:backgroundTint="#FF9800"
-        app:cornerRadius="5dp"
+        android:text="5"
+        android:textColor="@android:color/black"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintHorizontal_bias="0.711"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.587"
+        app:layout_constraintVertical_bias="0.409"
         app:rippleColor="@android:color/holo_blue_dark"
         app:strokeColor="#673AB7"
-        app:strokeWidth="3dp" />
+        app:strokeWidth="3dp"
+        tools:ignore="UnusedAttribute" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/main_btn_6_numbers"
-        android:layout_width="150dp"
+        android:layout_width="50dp"
         android:layout_height="50dp"
-        android:backgroundTint="#FFEB3B"
+        android:backgroundTint="@color/colorYellow"
+        android:bottomLeftRadius="0dp"
+        android:text="6"
+        android:textColor="@android:color/black"
+        android:topRightRadius="0dp"
+        android:visibility="invisible"
         app:cornerRadius="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.371"
+        app:layout_constraintHorizontal_bias="0.337"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.687"
+        app:layout_constraintVertical_bias="0.533"
         app:rippleColor="@android:color/holo_blue_dark"
         app:strokeColor="#673AB7"
-        app:strokeWidth="3dp" />
+        app:strokeWidth="3dp"
+        tools:ignore="UnusedAttribute" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_btn_7_numbers"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/colorGreen"
+        android:bottomLeftRadius="0dp"
+        android:text="7"
+        android:textColor="@android:color/black"
+        android:topRightRadius="0dp"
+        android:visibility="invisible"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.582"
+        app:rippleColor="@android:color/holo_blue_dark"
+        app:strokeColor="#673AB7"
+        app:strokeWidth="3dp"
+        tools:ignore="UnusedAttribute" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_btn_back_from_number_list"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorBlue"
+        android:bottomLeftRadius="0dp"
+        android:gravity="center"
+        android:paddingEnd="1dp"
+        android:topRightRadius="0dp"
+        android:visibility="invisible"
+        app:cornerRadius="5dp"
+        app:icon="@drawable/ic_keyboard_backspace_black_24dp"
+        app:iconTint="#00FD09"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481"
+        app:rippleColor="@android:color/holo_green_light"
+        app:strokeColor="#673AB7"
+        app:strokeWidth="3dp"
+        tools:ignore="RtlSymmetry,UnusedAttribute" />
+
+
+    <TextView
+        android:id="@+id/main_txt_choose_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/challenge"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.708" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_btn_words_challenge"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/words"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_btn_numbers_challenge"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/numbers"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

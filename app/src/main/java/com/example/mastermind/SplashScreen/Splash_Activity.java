@@ -1,10 +1,13 @@
-package com.example.mastermind;
+package com.example.mastermind.SplashScreen;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.example.mastermind.MainActivity.MainActivity;
+import com.example.mastermind.R;
 
 public class Splash_Activity extends AppCompatActivity {
     private static final int SPLASH_DISPLAY_LENGTH = 1500;
