@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".GameActivity_Numbers.GameActivity_Numbers"
+    tools:ignore="HardcodedText">
+
+    <TextView
+        android:id="@+id/game_numbers_txt_currectNumber"
+        android:layout_width="100dp"
+        android:layout_height="25sp"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.213">
+
+        <TableRow
+            android:id="@+id/game_numbers_table_row_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="#919191"
+            android:gravity="center"
+            android:padding="1dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:weightSum="8">
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_1_try_1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:focusable="auto"
+                android:gravity="center"
+                android:hint="1"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:nextFocusRight="@id/game_numbers_edt_txt_row_1_try_2"
+                android:nextFocusDown="@id/game_numbers_edt_txt_row_1_try_2"
+                android:nextFocusForward="@id/game_numbers_edt_txt_row_1_try_2" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_1_try_2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:focusable="auto"
+                android:gravity="center"
+                android:hint="2"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:nextFocusRight="@id/game_numbers_edt_txt_row_1_try_3"
+                android:nextFocusDown="@id/game_numbers_edt_txt_row_1_try_3"
+                android:nextFocusForward="@id/game_numbers_edt_txt_row_1_try_3" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_1_try_3"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="3"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:nextFocusRight="@id/game_numbers_edt_txt_row_1_try_4"
+                android:nextFocusDown="@id/game_numbers_edt_txt_row_1_try_4"
+                android:nextFocusForward="@id/game_numbers_edt_txt_row_1_try_4" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_1_try_4"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="4"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:nextFocusRight="@id/game_numbers_edt_txt_row_1_try_5"
+                android:nextFocusDown="@id/game_numbers_edt_txt_row_1_try_5"
+                android:nextFocusForward="@id/game_numbers_edt_txt_row_1_try_5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_1_try_5"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="5"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:nextFocusRight="@id/game_numbers_edt_txt_row_1_try_6"
+                android:nextFocusDown="@id/game_numbers_edt_txt_row_1_try_6"
+                android:nextFocusForward="@id/game_numbers_edt_txt_row_1_try_6" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_1_try_6"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="6"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:nextFocusRight="@id/game_numbers_edt_txt_row_1_try_7"
+                android:nextFocusDown="@id/game_numbers_edt_txt_row_1_try_7"
+                android:nextFocusForward="@id/game_numbers_edt_txt_row_1_try_7" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_1_try_7"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="7"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/game_numbers_row_1_btn_check"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_blue_bright"
+                android:gravity="center"
+                android:onClick="checkNumbers4Index"
+                android:paddingStart="12dp"
+                app:icon="@drawable/done" />
+
+        </TableRow>
+
+        <TableRow
+            android:visibility="gone"
+            android:id="@+id/game_numbers_table_row_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="#919191"
+            android:gravity="center"
+            android:padding="1dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:weightSum="8">
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_2_try_1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="1"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.205" />
+
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_2_try_2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="2"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.316" />
+
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_2_try_3"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="3"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.408" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_2_try_4"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="4"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_2_try_5"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="5"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.656" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_2_try_6"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="6"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.739" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_2_try_7"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="7"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.844" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/game_numbers_row_2_btn_check"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_blue_bright"
+                android:gravity="center"
+                android:onClick="checkNumbers4Index"
+                android:paddingStart="12dp"
+                app:icon="@drawable/done" />
+
+        </TableRow>
+
+        <TableRow
+            android:visibility="gone"
+            android:id="@+id/game_numbers_table_row_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="#919191"
+            android:gravity="center"
+            android:padding="1dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:weightSum="8">
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_3_try_1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="1"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.205" />
+
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_3_try_2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="2"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.316" />
+
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_3_try_3"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="3"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.408" />
+
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_3_try_4"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="4"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_3_try_5"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="5"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.656" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_3_try_6"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="6"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.739" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_3_try_7"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="7"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.844" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/game_numbers_row_3_btn_check"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_blue_bright"
+                android:gravity="center"
+                android:onClick="checkNumbers4Index"
+                android:paddingStart="12dp"
+                app:icon="@drawable/done" />
+
+        </TableRow>
+
+        <TableRow
+            android:visibility="gone"
+            android:id="@+id/game_numbers_table_row_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="#919191"
+            android:gravity="center"
+            android:padding="1dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:weightSum="8">
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_4_try_1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="1"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.205" />
+
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_4_try_2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="2"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.316" />
+
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_4_try_3"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="3"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.408" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_4_try_4"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="4"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_4_try_5"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="5"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.656" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_4_try_6"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="6"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.739" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_4_try_7"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="7"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.844" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/game_numbers_row_4_btn_check"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_blue_bright"
+                android:gravity="center"
+                android:onClick="checkNumbers4Index"
+                android:paddingStart="12dp"
+                app:icon="@drawable/done" />
+
+        </TableRow>
+
+        <TableRow
+            android:visibility="gone"
+            android:id="@+id/game_numbers_table_row_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="#919191"
+            android:gravity="center"
+            android:padding="1dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:weightSum="8">
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_5_try_1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="1"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.205" />
+
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_5_try_2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="2"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.316" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_5_try_3"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="3"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.408" />
+
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_5_try_4"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="4"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_5_try_5"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="5"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.656" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_5_try_6"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="6"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.739" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_5_try_7"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="7"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.844" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/game_numbers_row_5_btn_check"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_blue_bright"
+                android:gravity="center"
+                android:onClick="checkNumbers4Index"
+                android:paddingStart="12dp"
+                app:icon="@drawable/done" />
+
+        </TableRow>
+
+        <TableRow
+            android:visibility="gone"
+            android:id="@+id/game_numbers_table_row_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="#919191"
+            android:gravity="center"
+            android:padding="1dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:weightSum="8">
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_6_try_1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="1"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.205" />
+
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_6_try_2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="2"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.316" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_6_try_3"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="3"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.408" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_6_try_4"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="4"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_6_try_5"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="5"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.656" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_6_try_6"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#CFCECE"
+                android:gravity="center"
+                android:hint="6"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.739" />
+
+            <EditText
+                android:id="@+id/game_numbers_edt_txt_row_6_try_7"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#B58B8B"
+                android:gravity="center"
+                android:hint="7"
+                android:inputType="number"
+                android:maxLength="1"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.844" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/game_numbers_row_6_btn_check"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_blue_bright"
+                android:gravity="center"
+                android:onClick="checkNumbers4Index"
+                android:paddingStart="12dp"
+                app:icon="@drawable/done" />
+
+        </TableRow>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/game__numbers_showScoreAndResult"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="Result"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.804" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/game_numbers_retry_btn"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:text="Retry Again"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

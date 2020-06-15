@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableRow
+        android:id="@+id/game_numbers_table_row_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="#A181D8"
+        android:gravity="center"
+        android:padding="1dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:weightSum="8">
+
+        <EditText
+            android:id="@+id/cc_edt_1st_number"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_light"
+            android:focusable="auto"
+            android:gravity="center"
+            android:hint="1"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:nextFocusRight="@id/cc_edt_2st_number"
+            android:nextFocusDown="@id/cc_edt_2st_number"
+            android:nextFocusForward="@id/cc_edt_2st_number" />
+
+        <EditText
+            android:id="@+id/cc_edt_2st_number"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:focusable="auto"
+            android:gravity="center"
+            android:hint="2"
+            android:inputType="number"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:nextFocusRight="@id/cc_edt_3st_number"
+            android:nextFocusDown="@id/cc_edt_3st_number"
+            android:nextFocusForward="@id/cc_edt_3st_number" />
+
+        <EditText
+            android:id="@+id/cc_edt_3st_number"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_light"
+            android:gravity="center"
+            android:hint="3"
+            android:inputType="number"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:nextFocusRight="@id/cc_edt_4st_number"
+            android:nextFocusDown="@id/cc_edt_4st_number"
+            android:nextFocusForward="@id/cc_edt_4st_number" />
+
+        <EditText
+            android:id="@+id/cc_edt_4st_number"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="4"
+            android:inputType="number"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:nextFocusRight="@id/cc_edt_5st_number"
+            android:nextFocusDown="@id/cc_edt_5st_number"
+            android:nextFocusForward="@id/cc_edt_5st_number" />
+
+        <EditText
+            android:id="@+id/cc_edt_5st_number"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_light"
+            android:gravity="center"
+            android:hint="5"
+            android:inputType="number"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:nextFocusRight="@id/cc_edt_6st_number"
+            android:nextFocusDown="@id/cc_edt_6st_number"
+            android:nextFocusForward="@id/cc_edt_6st_number" />
+
+        <EditText
+            android:id="@+id/cc_edt_6st_number"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="6"
+            android:inputType="number"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:nextFocusRight="@id/cc_edt_7st_number"
+            android:nextFocusDown="@id/cc_edt_7st_number"
+            android:nextFocusForward="@id/cc_edt_7st_number" />
+
+        <EditText
+            android:id="@+id/cc_edt_7st_number"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_light"
+            android:gravity="center"
+            android:hint="7"
+            android:inputType="number"
+            android:maxLength="1"
+            android:maxLines="1" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/game_numbers_row_1_btn_check"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/darker_gray"
+            android:gravity="center"
+            android:onClick="checkNumbers4Index"
+            android:paddingStart="12dp"
+            app:icon="@drawable/done" />
+
+    </TableRow>
+
+</LinearLayout>

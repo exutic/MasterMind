@@ -8,7 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="@xml/backup_descriptor">
+        <activity android:name=".GameActivity_Words.GameActivity_Words"/>
+        <activity android:name=".GameActivity_Numbers.GameActivity_Numbers" />
         <activity android:name=".SplashScreen.Splash_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,8 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity.MainActivity">
-        </activity>
+        <activity android:name=".MainActivity.MainActivity" />
     </application>
 
 </manifest>

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.content.Intent;
+import android.media.audiofx.DynamicsProcessing;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -13,31 +14,24 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.mastermind.GameActivity_Numbers.GameActivity_Numbers;
+import com.example.mastermind.GameActivity_Words.GameActivity_Words;
 import com.example.mastermind.R;
 import com.google.android.material.button.MaterialButton;
 
 public class MainActivity extends AppCompatActivity {
-    ConstraintLayout main_page_ConstraintLayout;
-
+    ConstraintLayout main_page_ConstraintLayout;//no use right now
     MaterialButton btnCHallenge_Words, btnCHallenge_Numbers;
-
     MaterialButton btn4units, btn5units, btn6units, btn7units;
-
-    MaterialButton btnBackMiddle;
-
+    MaterialButton btnBackMiddle; // back button in the middle of the screen
     Animation scale_13_to_1, scale_13_to_0, scale_0_to_13, scale_1_to_13, scale_0_to_1;
-
     Animation translate_top_left, translate_top_right, translate_bottom_left, translate_bottom_right;
-
     Animation fadeIn, fadeOut, fadeIn2, fadeOut2;
-
-    ImageView imgWordBackground, imgNumberBackground;
-
+    ImageView imgWordBackground, imgNumberBackground;//background will change according to the category selected
     int layout_stage;
-
     TextView txtChooseTitle;
-
-    int backButtonCount = 0;
+    int backButtonCount = 0;//for exiting the game
+    Intent SWITCH_ACTIVITY_INTENT;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -260,6 +254,85 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+
+    }
+
+    public void missionClicks(View view) {
+        int id = view.getId();
+
+        switch (id) {
+            case R.id.main_btn_4_numbers:
+                switch (layout_stage) {
+                    case 1:
+                        SWITCH_ACTIVITY_INTENT = new Intent(MainActivity.this, GameActivity_Words.class);
+                        SWITCH_ACTIVITY_INTENT.putExtra("count", 4);
+                        startActivity(SWITCH_ACTIVITY_INTENT);
+                        break;
+
+                    case 2:
+                        SWITCH_ACTIVITY_INTENT = new Intent(MainActivity.this, GameActivity_Numbers.class);
+                        SWITCH_ACTIVITY_INTENT.putExtra("count", 4);
+                        startActivity(SWITCH_ACTIVITY_INTENT);
+                        break;
+
+                }
+
+                break;
+
+            case R.id.main_btn_5_numbers:
+                switch (layout_stage) {
+                    case 1:
+                        SWITCH_ACTIVITY_INTENT = new Intent(MainActivity.this, GameActivity_Words.class);
+                        SWITCH_ACTIVITY_INTENT.putExtra("count",5);
+                        startActivity(SWITCH_ACTIVITY_INTENT);
+                        break;
+
+                    case 2:
+                        SWITCH_ACTIVITY_INTENT = new Intent(MainActivity.this, GameActivity_Numbers.class);
+                        SWITCH_ACTIVITY_INTENT.putExtra("count", 5);
+                        startActivity(SWITCH_ACTIVITY_INTENT);
+                        break;
+
+                }
+
+                break;
+
+            case R.id.main_btn_6_numbers:
+                switch (layout_stage) {
+                    case 1:
+                        SWITCH_ACTIVITY_INTENT = new Intent(MainActivity.this, GameActivity_Words.class);
+                        SWITCH_ACTIVITY_INTENT.putExtra("count", 6);
+                        startActivity(SWITCH_ACTIVITY_INTENT);
+                        break;
+
+                    case 2:
+                        SWITCH_ACTIVITY_INTENT = new Intent(MainActivity.this, GameActivity_Numbers.class);
+                        SWITCH_ACTIVITY_INTENT.putExtra("count", 6);
+                        startActivity(SWITCH_ACTIVITY_INTENT);
+                        break;
+
+                }
+                break;
+
+            case R.id.main_btn_7_numbers:
+                switch (layout_stage) {
+                    case 1:
+                        SWITCH_ACTIVITY_INTENT = new Intent(MainActivity.this, GameActivity_Words.class);
+                        SWITCH_ACTIVITY_INTENT.putExtra("count", 7);
+                        startActivity(SWITCH_ACTIVITY_INTENT);
+                        break;
+
+                    case 2:
+                        SWITCH_ACTIVITY_INTENT = new Intent(MainActivity.this, GameActivity_Numbers.class);
+                        SWITCH_ACTIVITY_INTENT.putExtra("count", 7);
+                        startActivity(SWITCH_ACTIVITY_INTENT);
+                        break;
+
+                }
+
+                break;
+        }
     }
 
     void backGround_Init() {
