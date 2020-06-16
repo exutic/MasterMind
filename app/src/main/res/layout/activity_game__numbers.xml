@@ -168,6 +168,7 @@
                 android:id="@+id/game_numbers_row_1_btn_check"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:backgroundTint="@android:color/holo_blue_bright"
                 android:gravity="center"
@@ -178,7 +179,6 @@
         </TableRow>
 
         <TableRow
-            android:visibility="gone"
             android:id="@+id/game_numbers_table_row_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -188,6 +188,7 @@
             android:padding="1dp"
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
+            android:visibility="gone"
             android:weightSum="8">
 
             <EditText
@@ -321,6 +322,7 @@
                 android:id="@+id/game_numbers_row_2_btn_check"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:backgroundTint="@android:color/holo_blue_bright"
                 android:gravity="center"
@@ -331,7 +333,6 @@
         </TableRow>
 
         <TableRow
-            android:visibility="gone"
             android:id="@+id/game_numbers_table_row_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -341,6 +342,7 @@
             android:padding="1dp"
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
+            android:visibility="gone"
             android:weightSum="8">
 
             <EditText
@@ -474,6 +476,7 @@
                 android:id="@+id/game_numbers_row_3_btn_check"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:backgroundTint="@android:color/holo_blue_bright"
                 android:gravity="center"
@@ -484,7 +487,6 @@
         </TableRow>
 
         <TableRow
-            android:visibility="gone"
             android:id="@+id/game_numbers_table_row_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -494,6 +496,7 @@
             android:padding="1dp"
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
+            android:visibility="gone"
             android:weightSum="8">
 
             <EditText
@@ -627,6 +630,7 @@
                 android:id="@+id/game_numbers_row_4_btn_check"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:backgroundTint="@android:color/holo_blue_bright"
                 android:gravity="center"
@@ -637,7 +641,6 @@
         </TableRow>
 
         <TableRow
-            android:visibility="gone"
             android:id="@+id/game_numbers_table_row_5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -647,6 +650,7 @@
             android:padding="1dp"
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
+            android:visibility="gone"
             android:weightSum="8">
 
             <EditText
@@ -779,6 +783,7 @@
                 android:id="@+id/game_numbers_row_5_btn_check"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:backgroundTint="@android:color/holo_blue_bright"
                 android:gravity="center"
@@ -789,7 +794,6 @@
         </TableRow>
 
         <TableRow
-            android:visibility="gone"
             android:id="@+id/game_numbers_table_row_6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -799,6 +803,7 @@
             android:padding="1dp"
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
+            android:visibility="gone"
             android:weightSum="8">
 
             <EditText
@@ -931,6 +936,7 @@
                 android:id="@+id/game_numbers_row_6_btn_check"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:backgroundTint="@android:color/holo_blue_bright"
                 android:gravity="center"
@@ -939,7 +945,6 @@
                 app:icon="@drawable/done" />
 
         </TableRow>
-
 
     </LinearLayout>
 
@@ -951,7 +956,7 @@
         android:gravity="center"
         android:text="Result"
         android:textColor="@android:color/white"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintLeft_toLeftOf="parent"
