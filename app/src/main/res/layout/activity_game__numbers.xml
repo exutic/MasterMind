@@ -172,7 +172,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="@android:color/holo_blue_bright"
                 android:gravity="center"
-                android:onClick="checkNumbers4Index"
+                android:onClick="ALL_ONCLICK_METHODS"
                 android:paddingStart="12dp"
                 app:icon="@drawable/done" />
 
@@ -326,7 +326,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="@android:color/holo_blue_bright"
                 android:gravity="center"
-                android:onClick="checkNumbers4Index"
+                android:onClick="ALL_ONCLICK_METHODS"
                 android:paddingStart="12dp"
                 app:icon="@drawable/done" />
 
@@ -480,7 +480,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="@android:color/holo_blue_bright"
                 android:gravity="center"
-                android:onClick="checkNumbers4Index"
+                android:onClick="ALL_ONCLICK_METHODS"
                 android:paddingStart="12dp"
                 app:icon="@drawable/done" />
 
@@ -634,7 +634,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="@android:color/holo_blue_bright"
                 android:gravity="center"
-                android:onClick="checkNumbers4Index"
+                android:onClick="ALL_ONCLICK_METHODS"
                 android:paddingStart="12dp"
                 app:icon="@drawable/done" />
 
@@ -787,7 +787,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="@android:color/holo_blue_bright"
                 android:gravity="center"
-                android:onClick="checkNumbers4Index"
+                android:onClick="ALL_ONCLICK_METHODS"
                 android:paddingStart="12dp"
                 app:icon="@drawable/done" />
 
@@ -940,7 +940,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="@android:color/holo_blue_bright"
                 android:gravity="center"
-                android:onClick="checkNumbers4Index"
+                android:onClick="ALL_ONCLICK_METHODS"
                 android:paddingStart="12dp"
                 app:icon="@drawable/done" />
 
