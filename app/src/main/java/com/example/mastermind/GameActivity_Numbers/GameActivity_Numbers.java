@@ -692,8 +692,8 @@ public class GameActivity_Numbers extends AppCompatActivity {
                 edt1_3.setEnabled(false);
                 edt1_4.setEnabled(false);
                 edt1_5.setEnabled(false);
-                if (correctAnswers >= 4) {
-                    correctAnswers = 4;
+                if (correctAnswers >= 5) {
+                    correctAnswers = 5;
                 }
                 txtScoreBoard.setText("Your Score out of 5 is " + correctAnswers);
                 break;
@@ -810,8 +810,8 @@ public class GameActivity_Numbers extends AppCompatActivity {
                 edt2_3.setEnabled(false);
                 edt2_4.setEnabled(false);
                 edt2_5.setEnabled(false);
-                if (correctAnswers >= 4) {
-                    correctAnswers = 4;
+                if (correctAnswers >= 5) {
+                    correctAnswers = 5;
                 }
                 txtScoreBoard.setText("Your Score out of 5 is " + correctAnswers);
                 break;
@@ -1296,7 +1296,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     correctAnswers++;
                                 } else if (array6IndexUserInputs[i].equals(array6Index[j])) {
                                     edt2_5.setBackgroundColor(Color.YELLOW);
-                                    j = array5IndexUserInputs.length;
+                                    j = array6IndexUserInputs.length;
                                 } else if (!array6IndexUserInputs[i].equals(array6Index[j])) {
                                     if (placeCheck >= 5) {
                                         edt2_5.setBackgroundColor(Color.RED);
@@ -1316,7 +1316,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     correctAnswers++;
                                 } else if (array6IndexUserInputs[i].equals(array6Index[j])) {
                                     edt2_6.setBackgroundColor(Color.YELLOW);
-                                    j = array5IndexUserInputs.length;
+                                    j = array6IndexUserInputs.length;
                                 } else if (!array6IndexUserInputs[i].equals(array6Index[j])) {
                                     if (placeCheck >= 5) {
                                         edt2_6.setBackgroundColor(Color.RED);
@@ -1435,7 +1435,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     correctAnswers++;
                                 } else if (array6IndexUserInputs[i].equals(array6Index[j])) {
                                     edt3_5.setBackgroundColor(Color.YELLOW);
-                                    j = array5IndexUserInputs.length;
+                                    j = array6IndexUserInputs.length;
                                 } else if (!array6IndexUserInputs[i].equals(array6Index[j])) {
                                     if (placeCheck >= 5) {
                                         edt3_5.setBackgroundColor(Color.RED);
@@ -1455,7 +1455,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     correctAnswers++;
                                 } else if (array6IndexUserInputs[i].equals(array6Index[j])) {
                                     edt3_6.setBackgroundColor(Color.YELLOW);
-                                    j = array5IndexUserInputs.length;
+                                    j = array6IndexUserInputs.length;
                                 } else if (!array6IndexUserInputs[i].equals(array6Index[j])) {
                                     if (placeCheck >= 5) {
                                         edt3_6.setBackgroundColor(Color.RED);
@@ -1712,7 +1712,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     correctAnswers++;
                                 } else if (array6IndexUserInputs[i].equals(array6Index[j])) {
                                     edt5_5.setBackgroundColor(Color.YELLOW);
-                                    j = array5IndexUserInputs.length;
+                                    j = array6IndexUserInputs.length;
                                 } else if (!array6IndexUserInputs[i].equals(array6Index[j])) {
                                     if (placeCheck >= 5) {
                                         edt5_5.setBackgroundColor(Color.RED);
@@ -1785,7 +1785,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt1_1.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt1_1.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -1804,7 +1804,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt1_2.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt1_2.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -1824,7 +1824,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt1_3.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt1_3.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -1845,7 +1845,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt1_4.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt1_4.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -1865,7 +1865,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt1_5.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt1_5.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -1885,7 +1885,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt1_6.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt1_6.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -1905,7 +1905,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt1_7.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt1_7.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -1924,8 +1924,8 @@ public class GameActivity_Numbers extends AppCompatActivity {
                 edt1_5.setEnabled(false);
                 edt1_6.setEnabled(false);
                 edt1_7.setEnabled(false);
-                if (correctAnswers >= 6) {
-                    correctAnswers = 6;
+                if (correctAnswers >= 7) {
+                    correctAnswers = 7;
                 }
                 txtScoreBoard.setText("Your Score out of 7 is " + correctAnswers);
                 break;
@@ -1945,7 +1945,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt2_1.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt2_1.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -1964,7 +1964,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt2_2.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt2_2.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -1984,7 +1984,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt2_3.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt2_3.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2005,7 +2005,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt2_4.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt2_4.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2025,7 +2025,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt2_5.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt2_5.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2045,7 +2045,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt2_6.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt2_6.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2065,7 +2065,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt2_7.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt2_7.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2105,7 +2105,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt3_1.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt3_1.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2124,7 +2124,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt3_2.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt3_2.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2144,7 +2144,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt3_3.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt3_3.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2165,7 +2165,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt3_4.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt3_4.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2185,7 +2185,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt3_5.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt3_5.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2205,7 +2205,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt3_6.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt3_6.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2225,7 +2225,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt3_7.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt3_7.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2265,7 +2265,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt4_1.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt4_1.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2284,7 +2284,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt4_2.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt4_2.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2304,7 +2304,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt4_3.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt4_3.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2325,7 +2325,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt4_4.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt4_4.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2345,7 +2345,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt4_5.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt4_5.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2365,7 +2365,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt4_6.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt4_6.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2385,7 +2385,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt4_7.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt4_7.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2406,7 +2406,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                 if (correctAnswers >= 7) {
                     correctAnswers = 7;
                 }
-                txtScoreBoard.setText("Your Score out of 5 is " + correctAnswers);
+                txtScoreBoard.setText("Your Score out of 7 is " + correctAnswers);
                 break;
 
             case R.id.game_numbers_row_5_btn_check:
@@ -2424,7 +2424,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt5_1.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt5_1.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2443,7 +2443,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt5_2.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt5_2.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2463,7 +2463,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt5_3.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt5_3.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2484,7 +2484,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt5_4.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt5_4.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2504,7 +2504,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt5_5.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt5_5.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2524,7 +2524,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt5_6.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt5_6.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2544,7 +2544,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt5_7.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt5_7.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2562,10 +2562,10 @@ public class GameActivity_Numbers extends AppCompatActivity {
                 edt5_5.setEnabled(false);
                 edt5_6.setEnabled(false);
                 edt5_7.setEnabled(false);
-                if (correctAnswers >= 6) {
-                    correctAnswers = 6;
+                if (correctAnswers >= 7) {
+                    correctAnswers = 7;
                 }
-                txtScoreBoard.setText("Your Score out of 5 is " + correctAnswers);
+                txtScoreBoard.setText("Your Score out of 7 is " + correctAnswers);
                 break;
 
             case R.id.game_numbers_row_6_btn_check:
@@ -2583,7 +2583,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt6_1.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt6_1.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2602,7 +2602,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt6_2.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt6_2.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2622,7 +2622,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt6_3.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt6_3.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2643,7 +2643,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt6_4.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt6_4.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2663,7 +2663,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt6_5.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt6_5.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2683,7 +2683,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt6_6.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt6_6.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2703,7 +2703,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                                     edt6_7.setBackgroundColor(Color.YELLOW);
                                     j = array7IndexUserInputs.length;
                                 } else if (!array7IndexUserInputs[i].equals(array7Index[j])) {
-                                    if (placeCheck >= 7) {
+                                    if (placeCheck >= 6) {
                                         edt6_7.setBackgroundColor(Color.RED);
                                     }
                                 }
@@ -2724,7 +2724,7 @@ public class GameActivity_Numbers extends AppCompatActivity {
                 if (correctAnswers >= 7) {
                     correctAnswers = 7;
                 }
-                txtScoreBoard.setText("Your Score out of 5 is " + correctAnswers);
+                txtScoreBoard.setText("Your Score out of 7 is " + correctAnswers);
                 break;
 
             default:
